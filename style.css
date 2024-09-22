@@ -1,0 +1,113 @@
+ 
+
+ 
+.brand{
+    color: #AD49E1;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 45px;
+    padding-left: 30px;
+}
+
+.navbar{
+    padding-right: 20px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.nav-item .nav-link {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+.btn:hover {
+    transform: translateY(-5px);
+    color: #AD49E1;
+    background-color: white;
+  }
+
+  
+.btn-dark {
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 20px;
+     color: #AD49E1;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+hr{
+    width: 80%;
+}
+
+
+
+.fa-facebook{
+    margin: 15px;
+    padding: 15px;
+    color: #AD49E1;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-twitter{
+    margin: 15px;
+    padding: 15px;
+    color: #AD49E1;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-linkedin{
+    margin: 15px;
+    color: #AD49E1;
+    padding: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+
+li:hover {
+    transform: translateY(-5px);
+    color: #AD49E1;
+   
+  }
+
+
+@media (max-width: 991px) {
+    
+    .navbar-collapse {
+        display: none !important;
+    }
+
+    .navbar-brand{
+        font-size: 30px;   
+        padding-left: 10px;
+    
+    }
+}
+
+ 
+.offcanvas-body .nav-item {
+    padding: 5px 0;
+}
+
+.offcanvas-title {
+    font-weight: bold;
+}
